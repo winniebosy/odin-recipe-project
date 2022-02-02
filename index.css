@@ -1,7 +1,8 @@
 
 :root {
-
+--bodyColor: #0b0c10;
 }
+
 
 html {
 
@@ -12,4 +13,7 @@ html {
 * , ::before , ::after {
 
     box-sizing: inherit;
+}
+body{
+    background-color: var(--bodyColor);
 }
