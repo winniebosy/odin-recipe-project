@@ -17,6 +17,7 @@ html {
     color:var(--fontColor);
     padding:0;
     margin:0;
+    height: 100%;
 }
 
 
@@ -29,6 +30,7 @@ body{
     padding:0;
     margin:0;
     color:black;
+    height: 100%;
    
 }
 #header {
@@ -110,8 +112,15 @@ a[class*="nav__link"]:focus{
 /* navigation styling ends here */
 
 /* hero section styling */
+
 .hero-container {
-    background-image: url('images/hero-image.jpg');
+    height: 100%;
+    max-width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('images/hero3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
 }
 
 /* hero section styling ends here */
