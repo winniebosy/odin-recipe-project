@@ -109,3 +109,10 @@ a[class*="nav__link"]:focus{
 
 /* navigation styling ends here */
 
+/* hero section styling */
+.hero-container {
+    background-image: url('images/hero-image.jpg');
+}
+
+/* hero section styling ends here */
+
