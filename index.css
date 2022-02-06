@@ -57,3 +57,33 @@ a[class*="header-link"]:hover{
 
 }
 /* submit recipe styling ends here */
+
+/* navigation section styling */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 2px solid #ffffff;
+    max-width: 100%;
+}
+.nav__logo {
+    padding: 1rem;
+    
+
+}
+.nav__list {
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.nav__item {
+    
+    list-style-type: none;
+    margin: 1.5rem;
+    
+}
+
+/* navigation styling ends here */
+
