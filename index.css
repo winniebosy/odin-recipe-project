@@ -5,7 +5,7 @@
 --headerColor: #1f2833; 
 --fontColor: #ffffff;
 --links: #45a29e;
---buttonshover: #66fcf1;
+--buttonshover: #174d48;
 --buttons: #116466;
 
 }
@@ -43,6 +43,14 @@ body{
     margin:0;
     padding: 1rem;
     
+}
+/* logo */
+ a[class*="logo-title"] {
+    font-family: 'Comforter', cursive;
+    font-size: 200%;
+    text-decoration: none;
+    font-weight:bolder;
+    color: #0d1817;
 }
 /* submit recipe styling */
 a[class*="header-link"]{
