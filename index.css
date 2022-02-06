@@ -98,6 +98,14 @@ a[class*="nav__link"]{
     color: var(--bodyColor);
     font-weight:bolder;
 }
+a[class*="nav__link"]:hover{
+    color: var(--links);
+}
+a[class*="nav__link"]:focus{
+    color: var(--links);
+
+}
+
 
 /* navigation styling ends here */
 
