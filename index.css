@@ -255,6 +255,17 @@ a[class*="btn-link"]:focus{
 
 }
 
+.clock-icon {
+    padding: 0 0.4rem;
+    margin: 0 0.4rem;
+    border:2px solid red;
+    font-size:100%;
+}
+.people-icon {
+    padding: 0 0.4rem;
+    margin: 0 0.4rem;
+    font-size:100%;
+}
 
 
 /* main section ends here */
