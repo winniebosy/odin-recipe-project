@@ -204,7 +204,42 @@ article[class*="card"] {
     font-size:80%;
 
 }
+section[class*="card details"]{
+    padding: 0.2rem;
+}
 
+.card-link {
+    margin:1rem;
+}
+
+
+.card-link :hover {
+    background-color:#116466;
+    border-color: #116466;
+    }
+    .card-link :focus {
+        background-color:#116466;
+        border-color: #116466;
+        }
+
+
+a[class*="btn-link"]{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight:bolder;
+    border-width:0.5px;
+    border-style:solid;
+    padding: 0.2rem 0.3rem;
+    
+}
+a[class*="btn-link"]:hover{
+    color: #ffffff;
+    background-color: ;
+}
+a[class*="btn-link"]:focus{
+    color: var(--links);
+
+}
 
 
 
