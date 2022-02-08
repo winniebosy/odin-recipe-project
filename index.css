@@ -122,6 +122,25 @@ a[class*="nav__link"]:focus{
     background-size: cover;
    
 }
+.hero-text {
+    border: 2px solid red;
+    color: white;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5rem 1rem;
+    flex-direction: column;
+    margin:auto;
+    
+
+}
+
+.hero-title {
+    font-size: 600%;
+    font-weight: bolder;
+}
+
 
 /* hero section styling ends here */
 
