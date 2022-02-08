@@ -150,3 +150,22 @@ a[class*="nav__link"]:focus{
 
 /* hero section styling ends here */
 
+/* main section */
+main {
+margin:0;
+border:2px solid red;
+}
+
+
+/* main-section title */
+.main-section-title {
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 120%;
+    font-weight: bolder;
+    color: var(--bodyColor);
+}
+
+/* main section ends here */
+
