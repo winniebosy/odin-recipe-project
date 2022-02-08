@@ -271,4 +271,13 @@ a[class*="btn-link"]:focus{
     color: var(--links);
     background-color: var(--bodyColor);
     padding: 1rem;
+    text-align: center;
+}
+.social-media-links {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 1rem;
+    border: 2px solid red;
+    
 }
