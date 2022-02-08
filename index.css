@@ -6,6 +6,7 @@
 --fontColor: #ffffff;
 --links: #45a29e;
 --buttonshover: #174d48;
+--cardBackground: #174d48;
 --buttons: #116466;
 
 }
@@ -166,7 +167,7 @@ border:2px solid red;
     font-weight: bolder;
     color: var(--bodyColor);
 }
-
+/* cards styling */
 .cards {
     border: 5px solid pink;
     display: flex;
@@ -175,11 +176,31 @@ border:2px solid red;
     flex-wrap: wrap;
     margin: 1rem;
     padding: 1rem;
+    color:#ffffff;
+
 }
+/* articles sections styling */
 article[class*="card"] {
-    border: 2px solid blue;
-    height: 300px;
-    width: 18rem;
+    height: auto;
+    width: 20rem;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    border-radius: 10px;
+
+}
+.image-display img {
+  width: 100%;
+  object-fit:cover;
+  height: 250px;
+}
+
+
+
+
+
+/* icon rating styling */
+.icon-rating {
+    
+
 }
 
 
