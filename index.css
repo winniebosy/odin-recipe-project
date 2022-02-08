@@ -169,12 +169,11 @@ border:2px solid red;
 }
 /* cards styling */
 .cards {
-    border: 5px solid pink;
     display: flex;
     justify-content: space-around;
     align-content:center;
     flex-wrap: wrap;
-    margin: 1rem;
+    margin: 0.3rem;
     padding: 1rem;
     color:#ffffff;
 
@@ -185,6 +184,8 @@ article[class*="card"] {
     width: 20rem;
     box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
     border-radius: 10px;
+    background-color: var(--cardBackground);
+    text-align: center;
 
 }
 .image-display img {
@@ -199,7 +200,8 @@ article[class*="card"] {
 
 /* icon rating styling */
 .icon-rating {
-    
+    margin:0.5rem;
+    font-size:80%;
 
 }
 
