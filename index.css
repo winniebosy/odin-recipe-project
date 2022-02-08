@@ -275,9 +275,21 @@ a[class*="btn-link"]:focus{
 }
 .social-media-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
     margin: 1rem;
-    border: 2px solid red;
     
+}
+i[class*="fab"] {
+    margin: 0.5rem;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+i[class*="fab"]:hover {
+    background:aqua;
+    color:#0b0c10;
+    font-weight:bold;
+}
+.footer-title{
+    font-size: 100%;
 }
