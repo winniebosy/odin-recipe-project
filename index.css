@@ -167,5 +167,14 @@ border:2px solid red;
     color: var(--bodyColor);
 }
 
+article[class*="card"] {
+    border: 2px solid blue;
+    height: 214px;
+    width: 18rem;
+}
+
+
+
+
 /* main section ends here */
 
