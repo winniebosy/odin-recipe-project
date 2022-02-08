@@ -167,9 +167,18 @@ border:2px solid red;
     color: var(--bodyColor);
 }
 
+.cards {
+    border: 5px solid pink;
+    display: flex;
+    justify-content: space-around;
+    align-content:center;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 1rem;
+}
 article[class*="card"] {
     border: 2px solid blue;
-    height: 214px;
+    height: 300px;
     width: 18rem;
 }
 
