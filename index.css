@@ -124,6 +124,28 @@ a[class*="nav__link"]:focus{
 }
 
 
+
+@media (max-width: 768px) {
+
+    
+    section[class*="nav__logo"] {
+        font-size: 110%;
+       
+    }
+ .nav__logo {
+     display: flex;
+     flex-direction: column;
+     font-size: 100%;
+
+ }
+
+ 
+  
+
+    }
+
+
+
 /* navigation styling ends here */
 
 /* hero section styling */
