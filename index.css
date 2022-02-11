@@ -68,7 +68,7 @@ body{
     text-decoration: none;
     font-weight:bolder;
     color: #0d1817;
-    border: 2px solid red;
+    
 }
 /* submit recipe styling */
 a[class*="header-link"]{
@@ -129,11 +129,11 @@ a[class*="nav__link"]:focus{
      text-align: center;
  }
  .show-menu {
-     font-size: 2rem;
-     float: left;
-     border :2px solid red;
- }
-
+    font-size: 2rem;
+    float: left;
+    border:2px solid red;
+   
+}
  
 
  
@@ -315,12 +315,29 @@ i[class*="fab"]:hover {
 
 /* media queries */
 
-@media only screen (min-width: 400px) and (max-width: 768px){
-    {
-        a[class*="logo-title"] {
-            font-size: 90%;
+@media only screen and (min-width: 400px) and (max-width: 768px){
+    nav {
+        display:flex;
+        flex-flow:column;
+        flex-wrap:wrap;
+        align-content: flex-start;
+    }
+
+
+a[class*="logo-title"] {
+            font-size: 100%;
+            line-height: 1.5;
     }
     
+    .show-menu {
+        font-size: 2rem;
+        float: left;
+        border:2px solid red;
+       
+    }
+
+
+
     }
 @media only screen and (min-width: 768px) and (max-width: 959px){
     
