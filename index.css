@@ -130,9 +130,18 @@ a[class*="nav__link"]:focus{
  }
  .show-menu {
     font-size: 2rem;
-    float: left;
-    border:2px solid red;
+        float: left;
+        color: #ffffff;
+        
+    
    
+}
+#show-menu {
+    color: #ffffff;
+}
+input[type="checkbox"] {
+    appearance: none;
+    
 }
  
 
@@ -326,28 +335,50 @@ i[class*="fab"]:hover {
 
 
 a[class*="logo-title"] {
-            font-size: 100%;
+            font-size: 130%;
             line-height: 2;
             margin-left: 1rem;
-            
             border: 2px solid red;
     }
 
 
-.nav-menu {
+ nav [class*="nav-menu"]{
+     align-self: flex-end;
+     margin-top:-4rem;
     
 
 }
+    nav ul {
+    display:flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 100%;
+
     
-    .nav__list {
-        display:flex
+}
+    nav ul li a{
+       max-width: 100%;
+       width: 100%;
+       padding: 0.1rem 2rem;
+       
         
     }
     
-    
-
-
+    .show-menu {
+        font-size: 2rem;
+        float: left;
+        color: #0d1817;
+        
     }
+    #show-menu {
+        display: none;
+    }
+     
+
+
+
+}
 @media only screen and (min-width: 768px) and (max-width: 959px){
     
         }
