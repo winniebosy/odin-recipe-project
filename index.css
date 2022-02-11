@@ -125,8 +125,7 @@ a[class*="nav__link"]:focus{
 
 
 
-@media (max-width: 768px) {
-
+@media screen and (max-width: 768px){
     
     section[class*="nav__logo"] {
         font-size: 110%;
