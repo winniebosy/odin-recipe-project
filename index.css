@@ -125,16 +125,18 @@ a[class*="nav__link"]:focus{
 
 
 
-@media screen and (max-width: 768px){
+@media only screen and (max-width: 600px){
     
     section[class*="nav__logo"] {
-        font-size: 110%;
+        font-size: 100%;
        
     }
  .nav__logo {
      display: flex;
-     flex-direction: column;
+     flex-direction: row;
+     flex-wrap: nowrap;
      font-size: 100%;
+     padding: 0;
 
  }
 
@@ -142,6 +144,34 @@ a[class*="nav__link"]:focus{
   
 
     }
+
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+    
+    .show-menu {
+        text-decoration:none;
+        color: red;
+        background-color:#0d1817;
+        text-align:center;
+        padding: 1rem;
+        display:none;
+   
+    }
+    input[type=checkbox] {
+        display: none;
+    }
+    input[type=checkbox]:checked ~ .nav__list {
+       display: ;
+    }
+
 
 
 
