@@ -378,11 +378,56 @@ a[class*="logo-title"] {
     #show-menu {
         display: none;
     }
-     
+
+    .hero-text {
+        color: white;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 5rem 1rem;
+        margin:auto;
+        line-height: 2;
+        
+    
+    }
+    
+    .hero-title {
+        font-size: 400%;
+        line-height: 2;
+    
+    }
+    .hero-information {
+        font-size: 100%;
+        line-height: 2;
+    
+    }
+    
+    /* hero section styling ends here */
+
+
+    article[class*="card"] {
+        height: auto;
+        width: 20rem;
+        box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+        border-radius: 10px;
+        background-color: var(--cardBackground);
+        text-align: center;
+        border: 2px solid red;
+        margin-top: 1rem;
+        
+        
 
 
 
 }
+}
+
+
+
+
+
 @media only screen and (min-width: 768px) and (max-width: 959px){
     
         }
