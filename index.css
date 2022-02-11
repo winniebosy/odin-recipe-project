@@ -320,22 +320,31 @@ i[class*="fab"]:hover {
         display:flex;
         flex-flow:column;
         flex-wrap:wrap;
-        align-content: flex-start;
+        align-items: flex-start;
+        
     }
 
 
 a[class*="logo-title"] {
             font-size: 100%;
-            line-height: 1.5;
-    }
-    
-    .show-menu {
-        font-size: 2rem;
-        float: left;
-        border:2px solid red;
-       
+            line-height: 2;
+            margin-left: 1rem;
+            
+            border: 2px solid red;
     }
 
+
+.nav-menu {
+    
+
+}
+    
+    .nav__list {
+        display:flex
+        
+    }
+    
+    
 
 
     }
