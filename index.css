@@ -68,6 +68,7 @@ body{
     text-decoration: none;
     font-weight:bolder;
     color: #0d1817;
+    border: 2px solid red;
 }
 /* submit recipe styling */
 a[class*="header-link"]{
@@ -90,6 +91,7 @@ nav {
     justify-content: flex-start;
     border: 2px solid #ffffff;
     max-width: 100%;
+    height: auto;
 }
 .nav__logo {
     padding: 1rem;
@@ -101,6 +103,7 @@ nav {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    float: right;
     
 }
 .nav__item {
@@ -117,60 +120,24 @@ a[class*="nav__link"]{
 }
 a[class*="nav__link"]:hover{
     color: var(--links);
+    transition: .5s;
 }
 a[class*="nav__link"]:focus{
     color: var(--links);
-
-}
-
-
-
-@media only screen and (max-width: 600px){
-    
-    section[class*="nav__logo"] {
-        font-size: 100%;
-       
-    }
- .nav__logo {
-     display: flex;
-     flex-direction: row;
-     flex-wrap: nowrap;
-     font-size: 100%;
-     padding: 0;
-
+    transition: .5s;
+     width: 80%;
+     text-align: center;
+ }
+ .show-menu {
+     font-size: 2rem;
+     float: left;
+     border :2px solid red;
  }
 
  
-  
 
-    }
-
-
-    /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+ 
     
-}
-    
-    .show-menu {
-        text-decoration:none;
-        color: red;
-        background-color:#0d1817;
-        text-align:center;
-        padding: 1rem;
-        display:none;
-   
-    }
-    input[type=checkbox] {
-        display: none;
-    }
-    input[type=checkbox]:checked ~ .nav__list {
-       display: ;
-    }
 
 
 
@@ -344,3 +311,17 @@ i[class*="fab"]:hover {
 .footer-title{
     font-size: 100%;
 }
+
+
+/* media queries */
+
+@media only screen (min-width: 400px) and (max-width: 768px){
+    {
+        a[class*="logo-title"] {
+            font-size: 90%;
+    }
+    
+    }
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    
+        }
