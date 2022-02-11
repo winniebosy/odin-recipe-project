@@ -338,14 +338,15 @@ a[class*="logo-title"] {
             font-size: 130%;
             line-height: 2;
             margin-left: 1rem;
-            border: 2px solid red;
+           
     }
 
 
  nav [class*="nav-menu"]{
      align-self: flex-end;
      margin-top:-4rem;
-    
+     margin-left: 3rem;
+
 
 }
     nav ul {
@@ -366,9 +367,12 @@ a[class*="logo-title"] {
     }
     
     .show-menu {
-        font-size: 2rem;
+        font-size: 1.5rem;
         float: left;
         color: #0d1817;
+        margin-right: 2rem;
+        
+        
         
     }
     #show-menu {
