@@ -11,6 +11,14 @@ html {
 
 
 }
+.card {
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+   background-color: antiquewhite;
+   max-width: 70%;
+   height: auto;
+   margin: auto;
+
+}
 
 .card__header {
     text-align:center;
@@ -22,5 +30,42 @@ html {
 .card-display {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border:2px solid red;
+    
+   
+}
+aside[class*="card__aside"] {
+ 
+ 
+}
+
+aside img {
+    background-size: cover;
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%
+
+
+}
+.card__body-preparation h2 {
+    margin: 1rem 0 0 1rem;
+}
+.card__body-ingredients{
+    margin: 0 1rem 0 1rem;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 768px){
+
+
+    .card {
+        font-size: 85%;
+    }
+    .card-display {
+        display: grid;
+        grid-template-rows: 1fr 2fr;
+        grid-template-columns: 1fr;
+        border: 5px solid green;
+        
+       
+    }
+
 }
