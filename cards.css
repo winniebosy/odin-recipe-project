@@ -1,5 +1,5 @@
 :root {
-    background-color: #fffff;
+    background-color:#f5f5dc;
 }
 
 html {
@@ -9,6 +9,14 @@ html {
 
     box-sizing: inherit;
 
+
+}
+
+.card__header {
+    text-align:center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-decoration: underline;
 
 }
 
