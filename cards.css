@@ -1,9 +1,15 @@
 :root {
-    background-color:#f5f5dc;
+    
+    --links: #45a29e;
+--buttonshover: #174d48;
+--cardBackground: #174d48;
+--buttons: #116466;
+--background:#0b0c10;
 }
 
 html {
     box-sizing: border-box;
+   
 }
 *, ::before, ::after {
 
@@ -11,12 +17,12 @@ html {
 
 
 }
-.card {
+.card{
     box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
-   background-color: antiquewhite;
    max-width: 70%;
    height: auto;
    margin: auto;
+  
 
 }
 
@@ -52,6 +58,29 @@ aside img {
 .card__body-ingredients{
     margin: 0 1rem 0 1rem;
 }
+footer[class*="card__footer"] {
+
+    margin : 0.5rem 2rem 0.5rem 2rem;
+    text-align: start;
+}
+
+.footer-container a {
+     margin: 1rem;
+    
+}
+
+footer a {
+    text-decoration: none;
+    margin-top: 1rem;
+    
+
+}
+footer a:hover {
+    color: var(--buttonshover);
+    background-color: var(--background);
+    
+
+}
 
 @media only screen and (min-width: 200px) and (max-width: 768px){
 
@@ -63,7 +92,7 @@ aside img {
         display: grid;
         grid-template-rows: 1fr 2fr;
         grid-template-columns: 1fr;
-        border: 5px solid green;
+        
         
        
     }
