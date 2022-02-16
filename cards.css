@@ -19,4 +19,8 @@ html {
     text-decoration: underline;
 
 }
-
+.card-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border:2px solid red;
+}
