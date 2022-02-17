@@ -5,6 +5,7 @@
 --cardBackground: #174d48;
 --buttons: #116466;
 --background:#0b0c10;
+user-select: none;
 }
 
 html {
@@ -35,7 +36,8 @@ html {
 }
 .card-display {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr auto;
     
    
 }
@@ -46,9 +48,10 @@ aside[class*="card__aside"] {
 
 aside img {
     background-size: cover;
-    max-width: 100%;
+    width: 100%;
+    height:auto;
     object-fit: cover;
-    height: 100%
+    background-position: center center;
 
 
 }
@@ -82,6 +85,9 @@ footer a:hover {
 
 }
 
+.steps-list {
+    line-height: 1.5;
+}
 @media only screen and (min-width: 200px) and (max-width: 768px){
 
 
@@ -90,7 +96,7 @@ footer a:hover {
     }
     .card-display {
         display: grid;
-        grid-template-rows: 1fr 2fr;
+        grid-template-rows: 1fr auto;
         grid-template-columns: 1fr;
         
         
