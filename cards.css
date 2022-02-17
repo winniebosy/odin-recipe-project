@@ -26,6 +26,13 @@ html {
   
 
 }
+.card__header {
+    background-color: var(--buttonshover);
+    max-width: 100%;
+    margin: 0;
+    padding:0;
+
+}
 
 .card__header {
     text-align:center;
