@@ -8,4 +8,5 @@ A simple cookie website made with pure html and css
 - HTML5
 - CSS 3
 ## Key Takeaways
--Refreshed on 
+-Refreshed on css3 flexbox and grid
+-css3 animations
